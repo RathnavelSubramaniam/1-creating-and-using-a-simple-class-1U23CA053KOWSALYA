@@ -1,4 +1,5 @@
 class Persona{
+
     String firstName;
     String lastName;
     int age;
@@ -13,7 +14,7 @@ Persona(String fName,String lName,int a ){
     }
 class Person{
      public static void main (String args[]) {
-     Persona a1 = new Persona ("John","Doe",30);
+     Persona a1 = new Persona ("Jhon","Doe",30);
      Persona a2 = new Persona ("Alice","Smith",25);
 
      String kk = a1.getFullName();
