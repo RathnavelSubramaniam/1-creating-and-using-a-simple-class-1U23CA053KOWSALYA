@@ -1,17 +1,36 @@
-class Person {
-    // Define instance variables: firstName (String), lastName (String), age (int)
+class Persona{
 
-    // Default constructor
+    String firstName;
+    String lastName;
+    int age;
 
-    // Parameterized constructor
+    Persona(String fName,String lName,int a )
+    {
+        firstName = fName ;
+        lastName = lName;
+        age = a;
 
-    // Method to get full name
-
-    public static void main(String[] args) {
-        // Create two Person objects with different data
-
-        // Display full names
-
-        // Calculate and display the average age
+    }
+    String getFullName ()
+    {
+        return firstName + " "+lastName;
     }
 }
+class Person{
+public static void main (String args[]){
+
+    Persona a1 = new Persona ("John","Doe",30);
+     Persona a2 = new Persona ("Alice","Smith",25);
+
+     String kk = a1.getFullName();
+     String lk = a2.getFullName();
+     
+     System.out.println("Person 1 :"+kk);
+    System.out.println("Person 1 :"+lk);
+
+    double average = ((a1.age + a2.age)/2.0);
+    System.out.println("Average Age:" +average);
+
+
+
+  }}
