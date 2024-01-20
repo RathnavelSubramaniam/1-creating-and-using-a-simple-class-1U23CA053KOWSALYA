@@ -12,7 +12,7 @@ class Persona{
     }
     String getFullName ()
     {
-        return firstName + " "+lastName;
+        return firstName + " "+ lastName;
     }
     }
 class Person{
@@ -29,4 +29,5 @@ class Person{
 
      double average = ((a1.age + a2.age)/2.0);
      System.out.println("Average Age:" +average);
-     }}
+     }
+     }
