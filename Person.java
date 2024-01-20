@@ -1,23 +1,18 @@
 class Persona{
-
     String firstName;
     String lastName;
     int age;
-
-    Persona(String fName,String lName,int a ){
+Persona(String fName,String lName,int a ){
         firstName = fName ;
         lastName = lName;
         age = a;
-
     }
-    String getFullName ()
-    {
-        return firstName + " "+ lastName;
+    String getFullName (){
+        return firstName + " " + lastName;
     }
     }
 class Person{
-      public static void main (String args[]){
-
+     public static void main (String args[]) {
      Persona a1 = new Persona ("John","Doe",30);
      Persona a2 = new Persona ("Alice","Smith",25);
 
