@@ -25,8 +25,8 @@ public static void main (String args[]){
      String kk = a1.getFullName();
      String lk = a2.getFullName();
      
-     System.out.println("Person 1 :"+kk);
-    System.out.println("Person 1 :"+lk);
+     System.out.println("Person 1:"+kk);
+    System.out.println("Person 2:"+lk);
 
     double average = ((a1.age + a2.age)/2.0);
     System.out.println("Average Age:" +average);
